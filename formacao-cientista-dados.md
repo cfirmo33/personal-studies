@@ -4,8 +4,10 @@ Esté um arquivo de resumo com todos os conteúdos e links que serviram de estud
 
 ## Roadmap do curso
 
-## Estatistica
+## Estatística
+
 ### Conceitos:
+
 #### Amostra
 
 É um conjunto da população que se propõe analisar.
@@ -55,3 +57,77 @@ Links:
 * [Geekie Games](https://geekiegames.geekie.com.br/blog/probabilidade-condicional/)
 * [Série de Aulas do Codecademy](https://geekiegames.geekie.com.br/blog/probabilidade-condicional/)
 
+#### Distribuições
+
+São formas de explicar dados aleatorios, de maneira que possamos encontrar um padrão e determinar comportamentos.
+
+#### Distribuição Binomial
+
+É uma distribuição que afirma que seus elementos só podem estar em duas condições, daí seu nome. Para se usar a distribuição binomial, é necessário cumprir certos pré-requisitos
+
+* Número Fixo de Experimentos
+* Cada experimento pode ter 2 resultados apenas: sucesso ou fracasso
+* A probabilidade de sucesso deve ser a mesma em cada experimento
+* Os experimentos são independentes
+
+> Um exemplo de cenário para uso do cálculo de probabilidade usando a distribuição normal é o cálculo com moedas.
+
+Links:
+* [UFSC](https://www.inf.ufsc.br/~andre.zibetti/probabilidade/binomial.html)
+* [IME](https://www.ime.usp.br/~yambar/MAE116-Quimica/Aula%205%20Distribui%E7%E3o%20Binomial/Aula%205%20-%20Distribui%E7%E3o%20Binomial.pdf)
+* [UFRGS](http://www.producao.ufrgs.br/arquivos/disciplinas/489_estaind005_distprob.pdf)
+
+#### Distribuição normal
+
+É a distribuição mais conhecida. Ela é usada para cálculo da ocorrência de um valor dentro de uma determinada distribuição. Para tanto, essa distribuição precisa ser considerada normal.
+
+Uma distribuição normal, é quando os itens estão dispostos de maneira assimétrica em relação a média dos dados. Um gráfico de uma distribuição normal se parece bastante com um sino
+
+Links:
+* [Voitto](https://www.voitto.com.br/blog/artigo/distribuicao-normal)
+* [IME](https://www.ime.usp.br/~hbolfar/aula_2013/Aula6-A12012.pdf)
+* [Portal Action](http://www.portalaction.com.br/probabilidades/62-distribuicao-normal)
+* [USP](https://edisciplinas.usp.br/pluginfile.php/3993614/mod_resource/content/4/mineracaodadosbiologicos-parte2.pdf)
+
+#### Intervalos de Confiança
+
+Diz respeito a inferência de informações de uma população a partir de uma amostra. Imaginemos uma pesquisa eleitoral. Não é possível afirmar com 100% de certeza que um candidato vai ganhar a partir de uma simples pesquisa. Mas a partir de uma série delas, podemos chegar a conclusões, porém, entendendo que uma amostra, por mais seleta que seja, não é a população.
+
+Links:
+* [Portal Action](http://www.portalaction.com.br/inferencia/intervalo-de-confianca)
+
+#### Testes de Hipótese
+
+Como saber se uma hipótese levantada a partir de um conjunto de dados é correto? Como saber se uma pesquisa eleitoral é confiável?
+
+Links:
+* [Portal Action](http://www.portalaction.com.br/inferencia/51-introducao)
+
+#### Correlação
+
+É quando existe uma relação matemática entre duas variáveis. Exemplo: quando eu afirmo que, quanto maior a idade de um paciente, maior o valor médio investido para o tratamento de tal paciente, eu tenho que variáveis são valor investido e idade do paciente.
+
+É importante entender que, quando temos uma correção temos dois tipos de variáveis: as **explanatórias** e as **dependentes**. Em que as explanatórias são as que explicam as dependentes. No caso acima, idade do paciente é uma variável explanatória e valor investido é dependente.
+
+> Quando eu tenho uma relação forre entre as variáveis, eu consigo prever um valor de uma variável dependente, tendo como base o valor de uma variável explanatória. Base de estudo da Regressão Linear
+
+#### Coeficiente de Determinação
+
+É o coeficiente acima elevado ao quadrado. Mostra a porcentagem de quanto uma variável independente pode ser explicada pela explanatória.
+
+#### Regressão Linear Simples e Múltipla
+
+É quando eu prevejo um valor de uma variável dependente a partir de uma explanatória
+
+Conceitos:
+* **Residuais**: é a diferença entre uma variável qualquer e a reta que pode ser trassada numa dispersão de dados de uma regressão simples, isto é, a inclinação
+* **Outliers**: são os dados que fogem muito do padrão
+
+Tipos:
+
+* Simples: tenho uma explanatória para uma dependente
+* Múltipla: tenho duas ou mais explanatórias para uma dependente. Para tanto, cada variável explanatória precisa ser independentes entre si
+
+Links:
+* [EECIS](https://www.eecis.udel.edu/~portnoi/classroom/prob_estatistica/2006_2/lecture_slides/aula20.pdf)
+* [IME](https://www.ime.usp.br/~fmachado/MAE229/AULA10.pdf)
