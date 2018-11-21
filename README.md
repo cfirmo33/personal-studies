@@ -36,3 +36,7 @@ Repositório com resumo de conteúdos que estou estudando
 
 * [PEP 8](https://www.python.org/dev/peps/pep-0008/?#introduction)
 * [PEP 257](https://www.python.org/dev/peps/pep-0257/)
+
+-----
+
+A centralização dos objetivos semanais está no link [Objetivos](./goals.md)
